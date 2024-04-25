@@ -1,0 +1,264 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+
+local Window = Rayfield:CreateWindow({
+   Name = "🦒Animal Simulator🦖",
+   LoadingTitle = "Animal Simulator",
+   LoadingSubtitle = "by mr rake",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "opening key"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "key YouTube",
+      Subtitle = "dont forge like and subscribe",
+      Note = " go got key from YouTube and back try",
+      FileName = "key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"subscribe"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+Rayfield:Notify({
+   Title = "welcome to player hacker",
+   Content = "gui working",
+   Duration = 5,
+   Image = nil,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = " daddy Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local A5Tab = Window:CreateTab("main createing🔨📜", nil) -- Title, Image
+local A1Tab = Window:CreateTab("AUTO farm👆🏻", nil) -- Title, Image
+local A2Tab = Window:CreateTab("KILL AURA🔪", nil) -- Title, Image
+local A3Tab = Window:CreateTab("AIMBOT PRO🗡", nil) -- Title, Image
+local A4Tab = Window:CreateTab("player👥", nil) -- Title, Image
+
+local A1Section = A1Tab:CreateSection("Auto HUB")
+local A2Section = A2Tab:CreateSection("KILL HUB")
+local A3Section = A3Tab:CreateSection("AIMBOT")
+local A4Section = A4Tab:CreateSection("lnfo player")
+
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Tp to dunny 5k",
+   Callback = function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-52, 591, 824)
+   end,
+})
+
+
+local A1Button = A1Tab:CreateButton({
+   Name = "auto farm coin",
+   Callback = function()
+           _G.loops = true
+
+while _G.loops do
+wait()
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("CoinEvent"):FireServer()
+end
+   end,
+})
+
+local A1Button = A1Tab:CreateButton({
+   Name = "get fire ball",
+   Callback = function()
+for i,v in pairs (game.Players:GetChildren()) do
+wait()
+for i,b in pairs (v.Backpack:GetChildren()) do
+b.Parent = game.Players.LocalPlayer.Backpack
+end
+end
+   end,
+})
+
+local A2Button = A2Tab:CreateButton({
+   Name = "kill aura",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/LeftOnReadInvalid/RobloxStuff/main/Animal%20Simulator%20GUI', true))()
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "get To arms horse",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10848.6904296875, 642.2777709960938, -8848.8212890625)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "get To arms horse 2",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10668.7431640625, 680.3075561523438, -9132.4541015625)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "HOUSE",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-514.8142700195312, 642.3203125, 117.54200744628906)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "get To horse arms 3",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-537.2007446289062, 733.25830078125, 659.01025390625)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "get to white horse",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1176.0948486328125, 770.9906616210938, -122.2464370727539)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get to green horse",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1118.1932373046875, 754.5957641601562, 395.2023010253906)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get to egg 4",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1419.310791015625, 1239.2901611328125, 525.5834350585938)
+   end,
+})
+
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Tp to respawn",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-131.02073669433594, 643.9080810546875, 468.79876708984375)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get to EGG 3",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10.434480667114258, 717.8672485351562, 856.6524047851562)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "get to EGG 1",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1402.04150390625, 1145.675048828125, 870.4039306640625)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get To horse face 3",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-204.39822387695312, 685.8576049804688, 461.15643310546875)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "GET TO EGG 2",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1180.4105224609375, 712.0473022460938, -98.30122375488281)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "get to horse arms 5",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-394.9560852050781, 699.506591796875, 218.7731170654297)
+   end,
+})
+
+local A3Button = A3Tab:CreateButton({
+   Name = "AIMBOT arceus x",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "GET to arms horse",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(311.7114562988281, 632.5665893554688, 75.27911376953125)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "lnfinite yield",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get to horse arms 5",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-286.8679504394531, 660.9777221679688, 541.4839477539062)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get arms horse 6",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(109.47142791748047, 641.070556640625, 67.92855834960938)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get to horse arms 7",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(748.88671875, 676.4281616210938, 644.277587890625)
+   end,
+})
+
+
+local A4Button = A4Tab:CreateButton({
+   Name = "get arms horse 8",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-10668.3095703125, 680.4769287109375, -9135.662109375)
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "Get to arms horse 9",
+   Callback = function()
+      game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(221.52552795410156, 652.6522827148438, -139.47315979003906)
+   end,
+})
+
+local A5Button = A5Tab:CreateButton({
+   Name = "That script not l made get free",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/pickles20/Scriptzzz/main/Lua%20Script'))()
+   end,
+})
+
+local A4Button = A4Tab:CreateButton({
+   Name = "chat bypassed free",
+   Callback = function()
+      loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))();
+   end,
+})
+
+local A5Label = A5Tab:CreateLabel("made tabs by mr rake")
+local A5Label = A5Tab:CreateLabel("made gui all by mr rake")
+local A5Label = A5Tab:CreateLabel("made scripts button by mr rake")
+
+local A4Label = A4Tab:CreateLabel("SOON TP")
+local A4Label = A4Tab:CreateLabel("SOON")
